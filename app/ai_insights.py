@@ -32,7 +32,7 @@ def generate_forecast_commentary(forecast_df):
     end_forecast=forecast_df['yhat'].iloc[-1]
     pct_change=((end_forecast-start_forecast)/start_forecast)*100
     
-    #build simple text summary
+    # build simple text summary
     summary=(
         f"The revenue forecast starts at ${start_forecast:,.0f} "
         f"and ends at ${end_forecast:,.0f},"
