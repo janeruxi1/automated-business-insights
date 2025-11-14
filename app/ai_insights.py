@@ -54,3 +54,34 @@ def generate_forecast_commentary(forecast_df):
         temperature=0.6,
     )
     return response.choices[0].message.content.strip()
+
+
+def generate_ai_insights(forecast_df):
+    """
+    Takes a pandas DataFrame with forecast results.
+    Example columns: ['date', 'forecast', 'lower', 'upper']
+    Returns a paragraph of insights.
+    """
+
+    # Convert the forecast data to text for GPT
+    table_text = forecast_df.to_string(index=False)
+
+    prompt = f"""
+    You are a senior data scientist. Analyze the following forecast data and generate:
+    - 5 bullet-point insights
+    - Trend summary
+    - Risks/opportunities
+    - One business recommendation
+
+    Forecast Data:
+    {table_text}
+
+    Your response should be short and business-friendly.
+    """
+
+    response = client.responses.create(
+        model="gpt-4o-mini",
+        input=prompt
+    )
+
+    return response.output_text

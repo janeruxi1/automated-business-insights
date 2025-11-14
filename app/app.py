@@ -3,9 +3,9 @@ import os
 from dotenv import load_dotenv
 load_dotenv(dotenv_path="./app/.env")
 
-from forecasting import load_data,forecast_revenue,plot_forecast
-from ai_insights import generate_forecast_commentary
-from report_generator import generate_pdf
+from forecasting import load_data,forecast_revenue,plot_forecast,extract_model_df
+from ai_insights import generate_forecast_commentary,generate_ai_insights
+from report_generator import generate_pdf,df_to_pdf_data
 
 st.set_page_config(page_title="Automated Business Insights",layout="wide")
 st.title("Automated Business Insights Generator")
@@ -23,25 +23,37 @@ st.subheader("Forecast Visualization")
 st.image(forecast_plot,width="stretch")
 
 st.subheader("Forecast Summary(Next 30 days)")
-st.write(forecast[['ds','yhat','yhat_lower','yhat_upper']].tail(10))
+forecast_table=forecast[['ds','yhat','yhat_lower','yhat_upper']]
+st.write(forecast_table.tail(30))
 
-ai_commentary=generate_forecast_commentary(forecast)
-st.subheader("AI-Generated Business Insight")
-st.write(ai_commentary)
+ai_forecast_summary=generate_forecast_commentary(forecast)
+st.subheader("AI-Generated Forecast Summary")
+st.write(ai_forecast_summary)
+
+ai_insights=generate_ai_insights(forecast)
+st.subheader("AI-Generated AI Insight")
+st.write(ai_insights)
+
+model_info_text=extract_model_df(model=model,df=forecast)
+st.subheader("Model Configuration Details")
+st.write(model_info_text)
 
 # Generate PDF when button is clicked
 if st.button("Download PDF Report"):
     pdf_path="business_insights_report.pdf"
     
     generate_pdf(
-        forecast_commentary=ai_commentary,
+        forecast_summary=ai_forecast_summary,
         chart_base64=forecast_plot,
+        ai_insights=ai_insights,
+        forecast_table_data=forecast_table.tail(30),
+        model_info_text=model_info_text,
         output_path=pdf_path
     )
     
     with open(pdf_path,"rb") as f:
         st.download_button(
-            label=" Download Report",
+            label="Download Report",
             data=f,
             file_name="business_insights_report.pdf",
             mime="application/pdf"

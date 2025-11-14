@@ -9,7 +9,7 @@ import httpx
 # Load environment variables
 load_dotenv()
 print("OpenAI Key:", os.getenv("OPENAI_API_KEY")[:8] + "...")
-print("Azure Key:", os.getenv("AZURE_STORAGE_CONNECTION_STRING")[:8] + "...")
+# print("Azure Key:", os.getenv("AZURE_STORAGE_CONNECTION_STRING")[:8] + "...")
 
 # Create an SSL context using certifi's CA bundle
 CORPORATE_CERT_PATH=r"C:\Users\n1309516\corp_root.cer"
