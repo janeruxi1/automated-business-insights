@@ -10,8 +10,17 @@ from forecasting import extract_model_df
 def df_to_pdf_data(df):
     """Convert DataFrame to a list of lists for ReportLab Table."""
     pdf_table = [df.columns.tolist()]
+    # Format each row based on data type
     for _, row in df.iterrows():
-        pdf_table.append([str(x) for x in row.values])
+        formatted_row=[]
+        for col,val in row.items():
+            if col=='ds':
+                formatted_row.append(val.strftime("%Y-%m-%d")) 
+            elif isinstance(val,(int,float)):
+                formatted_row.append(f"{val:,.2f}")
+            else:
+                formatted_row.append(str(val))
+        pdf_table.append(formatted_row)
     return pdf_table
 
 
@@ -67,7 +76,7 @@ def generate_pdf(forecast_summary,
     # =========================
     # PAGE 3 – FORECAST TABLE
     # =========================
-    flow.append(Paragraph("<b>Forecast Table (Last 30 Days) </b>", styles["Heading1"]))
+    flow.append(Paragraph("<b>Forecast Table (Next 30 Days) </b>", styles["Heading1"]))
     flow.append(Spacer(1, 0.2 * inch))
 
     forecast_pdf_table=df_to_pdf_data(forecast_table_data)
@@ -105,7 +114,6 @@ def generate_pdf(forecast_summary,
     
     flow.append(Paragraph("<b>Model Configuration Details: </b>", styles["BodyText"]))
     flow.append(Spacer(1, 0.2 * inch))
-    # model_info_text=extract_model_df(model_info)
     flow.append(Paragraph(model_info_text, styles["BodyText"]))
     flow.append(Spacer(1, 0.3 * inch))
     
