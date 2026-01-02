@@ -5,7 +5,12 @@ from reportlab.lib.units import inch
 from reportlab.lib import colors
 import base64
 from io import BytesIO
-from forecasting import extract_model_df
+# from model_perf_diagonistics import extract_model_df
+
+styles = getSampleStyleSheet()
+header_style = styles["Heading1"]
+subheader_style = styles["Heading2"]
+normal_style = styles["BodyText"]
 
 def df_to_pdf_data(df):
     """Convert DataFrame to a list of lists for ReportLab Table."""
@@ -28,7 +33,9 @@ def generate_pdf(forecast_summary,
                  chart_base64,
                  ai_insights,
                  forecast_table_data,
-                 model_info_text,         
+                 model_info_text, 
+                 model_perf_text, 
+                 # model_diagnostics,       
                  output_path="generated_report.pdf"):
     """Create a PDF report with commentary and forecast chart."""
     
@@ -96,21 +103,11 @@ def generate_pdf(forecast_summary,
 
     flow.append(PageBreak())
 
-
     # =========================
     # PAGE 4 – MODEL INFORMATION
     # =========================
     flow.append(Paragraph("<b>Model Information</b>", styles["Heading1"]))
     flow.append(Spacer(1, 0.2 * inch))
-    
-    # if model_info is not None:
-    #     model_info={
-    #         "Model Type": "Prophet Time Series Model",
-    #         "Training Period": "Jan 2018 - Dec 2024",
-    #         "Forecast Horizon": "6 months",
-    #         "Key Features": "Trend, Seasonality, Holidays",
-    #         "Performance Metrics": "MAE: $2,500; RMSE: $3,200"
-    #     }
     
     flow.append(Paragraph("<b>Model Configuration Details: </b>", styles["BodyText"]))
     flow.append(Spacer(1, 0.2 * inch))
@@ -122,6 +119,83 @@ def generate_pdf(forecast_summary,
         training configuration, and important notes for interpretation.
         """
     flow.append(Paragraph(summary_text, styles["BodyText"]))
+    flow.append(PageBreak())
+
+    # =========================
+    # PAGE 5 – MODEL PERFORMANCE
+    # =========================
+    # def add_model_perf_page(flow, model_df):
+    #     """Add a page for model performance metrics to the PDF flow."""
+    #     flow.append(Paragraph("<b>Model Performance</b>", header_style))
+    #     flow.append(Spacer(1, 12))
+        
+    #     table_data = [["Metric", "Value"]]
+    #     for i, row in model_df.iterrows():
+    #         table_data.append([row["Metric"], str(row["Value"])])
+
+    #     table = Table(table_data, colWidths=[200, 300])
+    #     table.setStyle(TableStyle([
+    #         ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#dbe9ff")),
+    #         ("TEXTCOLOR", (0, 0), (-1, 0), colors.black),
+    #         ("ALIGN", (0, 0), (-1, -1), "LEFT"),
+    #         ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+    #         ("BOTTOMPADDING", (0, 0), (-1, 0), 10),
+    #         ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+    #     ]))
+
+    #     flow.append(table)
+    #     flow.append(Spacer(1, 24))
+        
+        
+    flow.append(Paragraph(model_perf_text, styles["BodyText"]))
+    flow.append(Spacer(1, 0.3 * inch))
+    flow.append(PageBreak())
+
+    # =========================
+    # PAGE 6 – MODEL DIAGONOSTICS
+    # =========================
+    # def add_model_diag_page(flow, model_df):
+    #     """Add a page for model diagnostics to the PDF flow."""
+    # flow.append(Paragraph("<b>Model Diagonstics </b>", header_style))
+    # flow.append(Spacer(1, 12))
+    
+    # diagnostics_rows = model_df[model_df["Metric"].isin([
+    #         "Residual Mean",
+    #         "Residual Std Dev",
+    #         "Residual Autocorr (lag-1)",
+    #         "Shapiro-Wilk Stat",
+    #         "Shapiro-Wilk p-value",
+    #         "ADF Statistic",
+    #         "ADF p-value"
+    #     ])
+    # ]
+
+    # table_data = [["Diagnostic", "Value"]]
+    # for i, row in diagnostics_rows.iterrows():
+    #     table_data.append([row["Metric"], str(row["Value"])])
+
+    # table = Table(table_data, colWidths=[250, 250])
+    # table.setStyle(TableStyle([
+    #     ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#fdeacc")),
+    #     ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+    #     ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+    # ]))
+
+    # flow.append(table)
+    # flow.append(Spacer(1, 24))
+
+    # # Placeholder for charts if you want later
+    # flow.append(Paragraph(
+    #     "Diagnostics plots (Residual plot, ACF, QQ) can be added here.",
+    #     normal_style
+    # ))
+    
+    
+
+    flow.append(Paragraph("<b>model_diagnostics</b>", styles["BodyText"]))
+    flow.append(Spacer(1, 0.3 * inch))
+    flow.append(PageBreak())
+
     
     # Build PDF
     doc.build(flow)

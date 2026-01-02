@@ -5,7 +5,9 @@ load_dotenv(dotenv_path="./app/.env")
 
 from forecasting import load_data,forecast_revenue,plot_forecast,extract_model_df
 from ai_insights import generate_forecast_commentary,generate_ai_insights
-from report_generator import generate_pdf,df_to_pdf_data
+from report_generator import generate_pdf
+from model_perf_diagonistics import extract_model_performance
+from full_model import extract_full_model_report
 
 st.set_page_config(page_title="Automated Business Insights",layout="wide")
 st.title("Automated Business Insights Generator")
@@ -39,6 +41,21 @@ model_info_text=extract_model_df(model=model,df=forecast_table)
 st.subheader("Model Configuration Details")
 st.markdown(model_info_text,unsafe_allow_html=True)
 
+model_perf_text=extract_model_performance(model=model,df=df)
+st.subheader("Model Performance on Training Data")
+st.markdown(model_perf_text,unsafe_allow_html=True)
+
+# report = extract_full_model_report(model, df, forecast)
+# st.markdown("### Model Configuration")
+# st.markdown(report["model_info"], unsafe_allow_html=True)
+
+# st.markdown("### Model Performance")
+# st.markdown(report["performance"], unsafe_allow_html=True)
+
+# st.markdown("### Diagnostics")
+# st.markdown(report["diagnostics"], unsafe_allow_html=True)
+
+
 # Generate PDF when button is clicked
 if st.button("Download PDF Report"):
     pdf_path="business_insights_report.pdf"
@@ -49,6 +66,10 @@ if st.button("Download PDF Report"):
         ai_insights=ai_insights,
         forecast_table_data=forecast_table.tail(30),
         model_info_text=model_info_text,
+        model_perf_text=model_perf_text,
+    #    # model_info_text=report["model_info"],
+    #     performance_text=report["performance"],
+    #     model_diagnostics=report["diagnostics"],
         output_path=pdf_path
     )
     
