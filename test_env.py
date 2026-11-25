@@ -11,11 +11,13 @@ load_dotenv()
 print("OpenAI Key:", os.getenv("OPENAI_API_KEY")[:8] + "...")
 # print("Azure Key:", os.getenv("AZURE_STORAGE_CONNECTION_STRING")[:8] + "...")
 
-# Create an SSL context using certifi's CA bundle
-CORPORATE_CERT_PATH=r"C:\Users\n1309516\corp_root.cer"
+# Create an SSL context using certifi's CA bundle, plus an optional extra CA
+# certificate (set EXTRA_CA_CERT in .env, e.g. behind a corporate proxy)
 context=ssl.create_default_context()
 context.load_verify_locations(certifi.where())
-context.load_verify_locations(CORPORATE_CERT_PATH)
+extra_ca_cert=os.getenv("EXTRA_CA_CERT")
+if extra_ca_cert:
+    context.load_verify_locations(extra_ca_cert)
 
 http_client=httpx.Client(verify=context,timeout=60.0)
 
