@@ -1,0 +1,631 @@
+fold,model,ds,y,yhat
+1,Prophet (weekly + BR holidays),2018-01-05,210,229.5701
+1,Prophet (weekly + BR holidays),2018-01-06,216,192.4399
+1,Prophet (weekly + BR holidays),2018-01-07,196,200.8607
+1,Prophet (weekly + BR holidays),2018-01-08,293,240.4662
+1,Prophet (weekly + BR holidays),2018-01-09,252,237.279
+1,Prophet (weekly + BR holidays),2018-01-10,277,230.376
+1,Prophet (weekly + BR holidays),2018-01-11,266,227.9026
+1,Prophet (weekly + BR holidays),2018-01-12,243,233.4301
+1,Prophet (weekly + BR holidays),2018-01-13,219,196.2998
+1,Prophet (weekly + BR holidays),2018-01-14,235,204.7207
+1,Prophet (weekly + BR holidays),2018-01-15,307,244.3262
+1,Prophet (weekly + BR holidays),2018-01-16,302,241.1389
+1,Prophet (weekly + BR holidays),2018-01-17,282,234.2359
+1,Prophet (weekly + BR holidays),2018-01-18,241,231.7625
+1,Prophet (weekly + BR holidays),2018-01-19,235,237.29
+1,Prophet (weekly + BR holidays),2018-01-20,184,200.1598
+1,Prophet (weekly + BR holidays),2018-01-21,199,208.5806
+1,Prophet (weekly + BR holidays),2018-01-22,314,248.1861
+1,Prophet (weekly + BR holidays),2018-01-23,262,244.9988
+1,Prophet (weekly + BR holidays),2018-01-24,244,238.0958
+1,Prophet (weekly + BR holidays),2018-01-25,233,235.6225
+1,Prophet (weekly + BR holidays),2018-01-26,229,241.15
+1,Prophet (weekly + BR holidays),2018-01-27,153,204.0197
+1,Prophet (weekly + BR holidays),2018-01-28,156,212.4406
+1,Prophet (weekly + BR holidays),2018-01-29,246,252.0461
+1,Prophet (weekly + BR holidays),2018-01-30,258,248.8588
+1,Prophet (weekly + BR holidays),2018-01-31,256,241.9558
+1,Prophet (weekly + BR holidays),2018-02-01,232,239.4824
+1,Prophet (weekly + BR holidays),2018-02-02,212,245.0099
+1,Prophet (weekly + BR holidays),2018-02-03,193,207.8796
+1,Seasonal naive (last week),2018-01-05,210,135.0
+1,Seasonal naive (last week),2018-01-06,216,97.0
+1,Seasonal naive (last week),2018-01-07,196,74.0
+1,Seasonal naive (last week),2018-01-08,293,74.0
+1,Seasonal naive (last week),2018-01-09,252,204.0
+1,Seasonal naive (last week),2018-01-10,277,225.0
+1,Seasonal naive (last week),2018-01-11,266,258.0
+1,Seasonal naive (last week),2018-01-12,243,135.0
+1,Seasonal naive (last week),2018-01-13,219,97.0
+1,Seasonal naive (last week),2018-01-14,235,74.0
+1,Seasonal naive (last week),2018-01-15,307,74.0
+1,Seasonal naive (last week),2018-01-16,302,204.0
+1,Seasonal naive (last week),2018-01-17,282,225.0
+1,Seasonal naive (last week),2018-01-18,241,258.0
+1,Seasonal naive (last week),2018-01-19,235,135.0
+1,Seasonal naive (last week),2018-01-20,184,97.0
+1,Seasonal naive (last week),2018-01-21,199,74.0
+1,Seasonal naive (last week),2018-01-22,314,74.0
+1,Seasonal naive (last week),2018-01-23,262,204.0
+1,Seasonal naive (last week),2018-01-24,244,225.0
+1,Seasonal naive (last week),2018-01-25,233,258.0
+1,Seasonal naive (last week),2018-01-26,229,135.0
+1,Seasonal naive (last week),2018-01-27,153,97.0
+1,Seasonal naive (last week),2018-01-28,156,74.0
+1,Seasonal naive (last week),2018-01-29,246,74.0
+1,Seasonal naive (last week),2018-01-30,258,204.0
+1,Seasonal naive (last week),2018-01-31,256,225.0
+1,Seasonal naive (last week),2018-02-01,232,258.0
+1,Seasonal naive (last week),2018-02-02,212,135.0
+1,Seasonal naive (last week),2018-02-03,193,97.0
+1,Naive (last day),2018-01-05,210,258.0
+1,Naive (last day),2018-01-06,216,258.0
+1,Naive (last day),2018-01-07,196,258.0
+1,Naive (last day),2018-01-08,293,258.0
+1,Naive (last day),2018-01-09,252,258.0
+1,Naive (last day),2018-01-10,277,258.0
+1,Naive (last day),2018-01-11,266,258.0
+1,Naive (last day),2018-01-12,243,258.0
+1,Naive (last day),2018-01-13,219,258.0
+1,Naive (last day),2018-01-14,235,258.0
+1,Naive (last day),2018-01-15,307,258.0
+1,Naive (last day),2018-01-16,302,258.0
+1,Naive (last day),2018-01-17,282,258.0
+1,Naive (last day),2018-01-18,241,258.0
+1,Naive (last day),2018-01-19,235,258.0
+1,Naive (last day),2018-01-20,184,258.0
+1,Naive (last day),2018-01-21,199,258.0
+1,Naive (last day),2018-01-22,314,258.0
+1,Naive (last day),2018-01-23,262,258.0
+1,Naive (last day),2018-01-24,244,258.0
+1,Naive (last day),2018-01-25,233,258.0
+1,Naive (last day),2018-01-26,229,258.0
+1,Naive (last day),2018-01-27,153,258.0
+1,Naive (last day),2018-01-28,156,258.0
+1,Naive (last day),2018-01-29,246,258.0
+1,Naive (last day),2018-01-30,258,258.0
+1,Naive (last day),2018-01-31,256,258.0
+1,Naive (last day),2018-02-01,232,258.0
+1,Naive (last day),2018-02-02,212,258.0
+1,Naive (last day),2018-02-03,193,258.0
+2,Prophet (weekly + BR holidays),2018-02-04,201,220.2643
+2,Prophet (weekly + BR holidays),2018-02-05,271,264.5466
+2,Prophet (weekly + BR holidays),2018-02-06,268,259.2776
+2,Prophet (weekly + BR holidays),2018-02-07,248,252.707
+2,Prophet (weekly + BR holidays),2018-02-08,230,249.1123
+2,Prophet (weekly + BR holidays),2018-02-09,216,252.7913
+2,Prophet (weekly + BR holidays),2018-02-10,179,215.9737
+2,Prophet (weekly + BR holidays),2018-02-11,172,224.4104
+2,Prophet (weekly + BR holidays),2018-02-12,218,268.6927
+2,Prophet (weekly + BR holidays),2018-02-13,224,263.4237
+2,Prophet (weekly + BR holidays),2018-02-14,295,256.8531
+2,Prophet (weekly + BR holidays),2018-02-15,283,253.2584
+2,Prophet (weekly + BR holidays),2018-02-16,214,256.9374
+2,Prophet (weekly + BR holidays),2018-02-17,204,220.1198
+2,Prophet (weekly + BR holidays),2018-02-18,202,228.5565
+2,Prophet (weekly + BR holidays),2018-02-19,259,272.8388
+2,Prophet (weekly + BR holidays),2018-02-20,289,267.5698
+2,Prophet (weekly + BR holidays),2018-02-21,266,260.9993
+2,Prophet (weekly + BR holidays),2018-02-22,279,257.4045
+2,Prophet (weekly + BR holidays),2018-02-23,235,261.0835
+2,Prophet (weekly + BR holidays),2018-02-24,191,224.2659
+2,Prophet (weekly + BR holidays),2018-02-25,237,232.7026
+2,Prophet (weekly + BR holidays),2018-02-26,299,276.9849
+2,Prophet (weekly + BR holidays),2018-02-27,298,271.7159
+2,Prophet (weekly + BR holidays),2018-02-28,313,265.1454
+2,Prophet (weekly + BR holidays),2018-03-01,277,261.5506
+2,Prophet (weekly + BR holidays),2018-03-02,266,265.2296
+2,Prophet (weekly + BR holidays),2018-03-03,214,228.412
+2,Prophet (weekly + BR holidays),2018-03-04,236,236.8487
+2,Prophet (weekly + BR holidays),2018-03-05,264,281.131
+2,Seasonal naive (last week),2018-02-04,201,156.0
+2,Seasonal naive (last week),2018-02-05,271,246.0
+2,Seasonal naive (last week),2018-02-06,268,258.0
+2,Seasonal naive (last week),2018-02-07,248,256.0
+2,Seasonal naive (last week),2018-02-08,230,232.0
+2,Seasonal naive (last week),2018-02-09,216,212.0
+2,Seasonal naive (last week),2018-02-10,179,193.0
+2,Seasonal naive (last week),2018-02-11,172,156.0
+2,Seasonal naive (last week),2018-02-12,218,246.0
+2,Seasonal naive (last week),2018-02-13,224,258.0
+2,Seasonal naive (last week),2018-02-14,295,256.0
+2,Seasonal naive (last week),2018-02-15,283,232.0
+2,Seasonal naive (last week),2018-02-16,214,212.0
+2,Seasonal naive (last week),2018-02-17,204,193.0
+2,Seasonal naive (last week),2018-02-18,202,156.0
+2,Seasonal naive (last week),2018-02-19,259,246.0
+2,Seasonal naive (last week),2018-02-20,289,258.0
+2,Seasonal naive (last week),2018-02-21,266,256.0
+2,Seasonal naive (last week),2018-02-22,279,232.0
+2,Seasonal naive (last week),2018-02-23,235,212.0
+2,Seasonal naive (last week),2018-02-24,191,193.0
+2,Seasonal naive (last week),2018-02-25,237,156.0
+2,Seasonal naive (last week),2018-02-26,299,246.0
+2,Seasonal naive (last week),2018-02-27,298,258.0
+2,Seasonal naive (last week),2018-02-28,313,256.0
+2,Seasonal naive (last week),2018-03-01,277,232.0
+2,Seasonal naive (last week),2018-03-02,266,212.0
+2,Seasonal naive (last week),2018-03-03,214,193.0
+2,Seasonal naive (last week),2018-03-04,236,156.0
+2,Seasonal naive (last week),2018-03-05,264,246.0
+2,Naive (last day),2018-02-04,201,193.0
+2,Naive (last day),2018-02-05,271,193.0
+2,Naive (last day),2018-02-06,268,193.0
+2,Naive (last day),2018-02-07,248,193.0
+2,Naive (last day),2018-02-08,230,193.0
+2,Naive (last day),2018-02-09,216,193.0
+2,Naive (last day),2018-02-10,179,193.0
+2,Naive (last day),2018-02-11,172,193.0
+2,Naive (last day),2018-02-12,218,193.0
+2,Naive (last day),2018-02-13,224,193.0
+2,Naive (last day),2018-02-14,295,193.0
+2,Naive (last day),2018-02-15,283,193.0
+2,Naive (last day),2018-02-16,214,193.0
+2,Naive (last day),2018-02-17,204,193.0
+2,Naive (last day),2018-02-18,202,193.0
+2,Naive (last day),2018-02-19,259,193.0
+2,Naive (last day),2018-02-20,289,193.0
+2,Naive (last day),2018-02-21,266,193.0
+2,Naive (last day),2018-02-22,279,193.0
+2,Naive (last day),2018-02-23,235,193.0
+2,Naive (last day),2018-02-24,191,193.0
+2,Naive (last day),2018-02-25,237,193.0
+2,Naive (last day),2018-02-26,299,193.0
+2,Naive (last day),2018-02-27,298,193.0
+2,Naive (last day),2018-02-28,313,193.0
+2,Naive (last day),2018-03-01,277,193.0
+2,Naive (last day),2018-03-02,266,193.0
+2,Naive (last day),2018-03-03,214,193.0
+2,Naive (last day),2018-03-04,236,193.0
+2,Naive (last day),2018-03-05,264,193.0
+3,Prophet (weekly + BR holidays),2018-03-06,271,271.5108
+3,Prophet (weekly + BR holidays),2018-03-07,259,266.0764
+3,Prophet (weekly + BR holidays),2018-03-08,234,261.5855
+3,Prophet (weekly + BR holidays),2018-03-09,204,262.6891
+3,Prophet (weekly + BR holidays),2018-03-10,193,226.1022
+3,Prophet (weekly + BR holidays),2018-03-11,218,234.59
+3,Prophet (weekly + BR holidays),2018-03-12,232,279.0211
+3,Prophet (weekly + BR holidays),2018-03-13,227,275.277
+3,Prophet (weekly + BR holidays),2018-03-14,199,269.8426
+3,Prophet (weekly + BR holidays),2018-03-15,290,265.3518
+3,Prophet (weekly + BR holidays),2018-03-16,252,266.4554
+3,Prophet (weekly + BR holidays),2018-03-17,180,229.8684
+3,Prophet (weekly + BR holidays),2018-03-18,215,238.3563
+3,Prophet (weekly + BR holidays),2018-03-19,303,282.7874
+3,Prophet (weekly + BR holidays),2018-03-20,297,279.0433
+3,Prophet (weekly + BR holidays),2018-03-21,286,273.6089
+3,Prophet (weekly + BR holidays),2018-03-22,254,269.118
+3,Prophet (weekly + BR holidays),2018-03-23,221,270.2216
+3,Prophet (weekly + BR holidays),2018-03-24,165,233.6346
+3,Prophet (weekly + BR holidays),2018-03-25,190,242.1225
+3,Prophet (weekly + BR holidays),2018-03-26,272,286.5536
+3,Prophet (weekly + BR holidays),2018-03-27,245,282.8095
+3,Prophet (weekly + BR holidays),2018-03-28,220,277.3751
+3,Prophet (weekly + BR holidays),2018-03-29,194,272.8842
+3,Prophet (weekly + BR holidays),2018-03-30,165,237.5085
+3,Prophet (weekly + BR holidays),2018-03-31,168,237.4009
+3,Prophet (weekly + BR holidays),2018-04-01,207,245.8887
+3,Prophet (weekly + BR holidays),2018-04-02,282,290.3198
+3,Prophet (weekly + BR holidays),2018-04-03,247,286.5757
+3,Prophet (weekly + BR holidays),2018-04-04,257,281.1413
+3,Seasonal naive (last week),2018-03-06,271,298.0
+3,Seasonal naive (last week),2018-03-07,259,313.0
+3,Seasonal naive (last week),2018-03-08,234,277.0
+3,Seasonal naive (last week),2018-03-09,204,266.0
+3,Seasonal naive (last week),2018-03-10,193,214.0
+3,Seasonal naive (last week),2018-03-11,218,236.0
+3,Seasonal naive (last week),2018-03-12,232,264.0
+3,Seasonal naive (last week),2018-03-13,227,298.0
+3,Seasonal naive (last week),2018-03-14,199,313.0
+3,Seasonal naive (last week),2018-03-15,290,277.0
+3,Seasonal naive (last week),2018-03-16,252,266.0
+3,Seasonal naive (last week),2018-03-17,180,214.0
+3,Seasonal naive (last week),2018-03-18,215,236.0
+3,Seasonal naive (last week),2018-03-19,303,264.0
+3,Seasonal naive (last week),2018-03-20,297,298.0
+3,Seasonal naive (last week),2018-03-21,286,313.0
+3,Seasonal naive (last week),2018-03-22,254,277.0
+3,Seasonal naive (last week),2018-03-23,221,266.0
+3,Seasonal naive (last week),2018-03-24,165,214.0
+3,Seasonal naive (last week),2018-03-25,190,236.0
+3,Seasonal naive (last week),2018-03-26,272,264.0
+3,Seasonal naive (last week),2018-03-27,245,298.0
+3,Seasonal naive (last week),2018-03-28,220,313.0
+3,Seasonal naive (last week),2018-03-29,194,277.0
+3,Seasonal naive (last week),2018-03-30,165,266.0
+3,Seasonal naive (last week),2018-03-31,168,214.0
+3,Seasonal naive (last week),2018-04-01,207,236.0
+3,Seasonal naive (last week),2018-04-02,282,264.0
+3,Seasonal naive (last week),2018-04-03,247,298.0
+3,Seasonal naive (last week),2018-04-04,257,313.0
+3,Naive (last day),2018-03-06,271,264.0
+3,Naive (last day),2018-03-07,259,264.0
+3,Naive (last day),2018-03-08,234,264.0
+3,Naive (last day),2018-03-09,204,264.0
+3,Naive (last day),2018-03-10,193,264.0
+3,Naive (last day),2018-03-11,218,264.0
+3,Naive (last day),2018-03-12,232,264.0
+3,Naive (last day),2018-03-13,227,264.0
+3,Naive (last day),2018-03-14,199,264.0
+3,Naive (last day),2018-03-15,290,264.0
+3,Naive (last day),2018-03-16,252,264.0
+3,Naive (last day),2018-03-17,180,264.0
+3,Naive (last day),2018-03-18,215,264.0
+3,Naive (last day),2018-03-19,303,264.0
+3,Naive (last day),2018-03-20,297,264.0
+3,Naive (last day),2018-03-21,286,264.0
+3,Naive (last day),2018-03-22,254,264.0
+3,Naive (last day),2018-03-23,221,264.0
+3,Naive (last day),2018-03-24,165,264.0
+3,Naive (last day),2018-03-25,190,264.0
+3,Naive (last day),2018-03-26,272,264.0
+3,Naive (last day),2018-03-27,245,264.0
+3,Naive (last day),2018-03-28,220,264.0
+3,Naive (last day),2018-03-29,194,264.0
+3,Naive (last day),2018-03-30,165,264.0
+3,Naive (last day),2018-03-31,168,264.0
+3,Naive (last day),2018-04-01,207,264.0
+3,Naive (last day),2018-04-02,282,264.0
+3,Naive (last day),2018-04-03,247,264.0
+3,Naive (last day),2018-04-04,257,264.0
+4,Prophet (weekly + BR holidays),2018-04-05,266,258.8024
+4,Prophet (weekly + BR holidays),2018-04-06,189,259.0255
+4,Prophet (weekly + BR holidays),2018-04-07,164,220.9369
+4,Prophet (weekly + BR holidays),2018-04-08,185,230.6818
+4,Prophet (weekly + BR holidays),2018-04-09,253,276.5487
+4,Prophet (weekly + BR holidays),2018-04-10,201,271.4484
+4,Prophet (weekly + BR holidays),2018-04-11,274,265.3179
+4,Prophet (weekly + BR holidays),2018-04-12,255,261.4544
+4,Prophet (weekly + BR holidays),2018-04-13,202,261.6775
+4,Prophet (weekly + BR holidays),2018-04-14,146,223.5889
+4,Prophet (weekly + BR holidays),2018-04-15,223,233.3338
+4,Prophet (weekly + BR holidays),2018-04-16,280,279.2008
+4,Prophet (weekly + BR holidays),2018-04-17,266,274.1004
+4,Prophet (weekly + BR holidays),2018-04-18,280,267.9699
+4,Prophet (weekly + BR holidays),2018-04-19,293,264.1064
+4,Prophet (weekly + BR holidays),2018-04-20,197,264.3296
+4,Prophet (weekly + BR holidays),2018-04-21,156,197.6467
+4,Prophet (weekly + BR holidays),2018-04-22,200,235.9858
+4,Prophet (weekly + BR holidays),2018-04-23,285,281.8528
+4,Prophet (weekly + BR holidays),2018-04-24,271,276.7525
+4,Prophet (weekly + BR holidays),2018-04-25,284,270.6219
+4,Prophet (weekly + BR holidays),2018-04-26,254,266.7585
+4,Prophet (weekly + BR holidays),2018-04-27,242,266.9816
+4,Prophet (weekly + BR holidays),2018-04-28,169,228.8929
+4,Prophet (weekly + BR holidays),2018-04-29,171,238.6379
+4,Prophet (weekly + BR holidays),2018-04-30,240,284.5048
+4,Prophet (weekly + BR holidays),2018-05-01,256,281.2464
+4,Prophet (weekly + BR holidays),2018-05-02,296,273.274
+4,Prophet (weekly + BR holidays),2018-05-03,305,269.4105
+4,Prophet (weekly + BR holidays),2018-05-04,265,269.6336
+4,Seasonal naive (last week),2018-04-05,266,194.0
+4,Seasonal naive (last week),2018-04-06,189,165.0
+4,Seasonal naive (last week),2018-04-07,164,168.0
+4,Seasonal naive (last week),2018-04-08,185,207.0
+4,Seasonal naive (last week),2018-04-09,253,282.0
+4,Seasonal naive (last week),2018-04-10,201,247.0
+4,Seasonal naive (last week),2018-04-11,274,257.0
+4,Seasonal naive (last week),2018-04-12,255,194.0
+4,Seasonal naive (last week),2018-04-13,202,165.0
+4,Seasonal naive (last week),2018-04-14,146,168.0
+4,Seasonal naive (last week),2018-04-15,223,207.0
+4,Seasonal naive (last week),2018-04-16,280,282.0
+4,Seasonal naive (last week),2018-04-17,266,247.0
+4,Seasonal naive (last week),2018-04-18,280,257.0
+4,Seasonal naive (last week),2018-04-19,293,194.0
+4,Seasonal naive (last week),2018-04-20,197,165.0
+4,Seasonal naive (last week),2018-04-21,156,168.0
+4,Seasonal naive (last week),2018-04-22,200,207.0
+4,Seasonal naive (last week),2018-04-23,285,282.0
+4,Seasonal naive (last week),2018-04-24,271,247.0
+4,Seasonal naive (last week),2018-04-25,284,257.0
+4,Seasonal naive (last week),2018-04-26,254,194.0
+4,Seasonal naive (last week),2018-04-27,242,165.0
+4,Seasonal naive (last week),2018-04-28,169,168.0
+4,Seasonal naive (last week),2018-04-29,171,207.0
+4,Seasonal naive (last week),2018-04-30,240,282.0
+4,Seasonal naive (last week),2018-05-01,256,247.0
+4,Seasonal naive (last week),2018-05-02,296,257.0
+4,Seasonal naive (last week),2018-05-03,305,194.0
+4,Seasonal naive (last week),2018-05-04,265,165.0
+4,Naive (last day),2018-04-05,266,257.0
+4,Naive (last day),2018-04-06,189,257.0
+4,Naive (last day),2018-04-07,164,257.0
+4,Naive (last day),2018-04-08,185,257.0
+4,Naive (last day),2018-04-09,253,257.0
+4,Naive (last day),2018-04-10,201,257.0
+4,Naive (last day),2018-04-11,274,257.0
+4,Naive (last day),2018-04-12,255,257.0
+4,Naive (last day),2018-04-13,202,257.0
+4,Naive (last day),2018-04-14,146,257.0
+4,Naive (last day),2018-04-15,223,257.0
+4,Naive (last day),2018-04-16,280,257.0
+4,Naive (last day),2018-04-17,266,257.0
+4,Naive (last day),2018-04-18,280,257.0
+4,Naive (last day),2018-04-19,293,257.0
+4,Naive (last day),2018-04-20,197,257.0
+4,Naive (last day),2018-04-21,156,257.0
+4,Naive (last day),2018-04-22,200,257.0
+4,Naive (last day),2018-04-23,285,257.0
+4,Naive (last day),2018-04-24,271,257.0
+4,Naive (last day),2018-04-25,284,257.0
+4,Naive (last day),2018-04-26,254,257.0
+4,Naive (last day),2018-04-27,242,257.0
+4,Naive (last day),2018-04-28,169,257.0
+4,Naive (last day),2018-04-29,171,257.0
+4,Naive (last day),2018-04-30,240,257.0
+4,Naive (last day),2018-05-01,256,257.0
+4,Naive (last day),2018-05-02,296,257.0
+4,Naive (last day),2018-05-03,305,257.0
+4,Naive (last day),2018-05-04,265,257.0
+5,Prophet (weekly + BR holidays),2018-05-05,197,215.6788
+5,Prophet (weekly + BR holidays),2018-05-06,211,226.2858
+5,Prophet (weekly + BR holidays),2018-05-07,372,273.5858
+5,Prophet (weekly + BR holidays),2018-05-08,331,267.7251
+5,Prophet (weekly + BR holidays),2018-05-09,344,263.8769
+5,Prophet (weekly + BR holidays),2018-05-10,279,259.8659
+5,Prophet (weekly + BR holidays),2018-05-11,247,255.7438
+5,Prophet (weekly + BR holidays),2018-05-12,207,217.4951
+5,Prophet (weekly + BR holidays),2018-05-13,207,228.1021
+5,Prophet (weekly + BR holidays),2018-05-14,364,275.4021
+5,Prophet (weekly + BR holidays),2018-05-15,352,269.5414
+5,Prophet (weekly + BR holidays),2018-05-16,357,265.6932
+5,Prophet (weekly + BR holidays),2018-05-17,228,261.6823
+5,Prophet (weekly + BR holidays),2018-05-18,236,257.5601
+5,Prophet (weekly + BR holidays),2018-05-19,139,219.3114
+5,Prophet (weekly + BR holidays),2018-05-20,161,229.9184
+5,Prophet (weekly + BR holidays),2018-05-21,206,277.2185
+5,Prophet (weekly + BR holidays),2018-05-22,199,271.3578
+5,Prophet (weekly + BR holidays),2018-05-23,132,267.5095
+5,Prophet (weekly + BR holidays),2018-05-24,114,263.4986
+5,Prophet (weekly + BR holidays),2018-05-25,104,259.3765
+5,Prophet (weekly + BR holidays),2018-05-26,99,221.1278
+5,Prophet (weekly + BR holidays),2018-05-27,100,231.7347
+5,Prophet (weekly + BR holidays),2018-05-28,143,279.0348
+5,Prophet (weekly + BR holidays),2018-05-29,149,273.1741
+5,Prophet (weekly + BR holidays),2018-05-30,140,269.3258
+5,Prophet (weekly + BR holidays),2018-05-31,133,265.3149
+5,Prophet (weekly + BR holidays),2018-06-01,184,261.1928
+5,Prophet (weekly + BR holidays),2018-06-02,142,222.9441
+5,Prophet (weekly + BR holidays),2018-06-03,192,233.551
+5,Seasonal naive (last week),2018-05-05,197,169.0
+5,Seasonal naive (last week),2018-05-06,211,171.0
+5,Seasonal naive (last week),2018-05-07,372,240.0
+5,Seasonal naive (last week),2018-05-08,331,256.0
+5,Seasonal naive (last week),2018-05-09,344,296.0
+5,Seasonal naive (last week),2018-05-10,279,305.0
+5,Seasonal naive (last week),2018-05-11,247,265.0
+5,Seasonal naive (last week),2018-05-12,207,169.0
+5,Seasonal naive (last week),2018-05-13,207,171.0
+5,Seasonal naive (last week),2018-05-14,364,240.0
+5,Seasonal naive (last week),2018-05-15,352,256.0
+5,Seasonal naive (last week),2018-05-16,357,296.0
+5,Seasonal naive (last week),2018-05-17,228,305.0
+5,Seasonal naive (last week),2018-05-18,236,265.0
+5,Seasonal naive (last week),2018-05-19,139,169.0
+5,Seasonal naive (last week),2018-05-20,161,171.0
+5,Seasonal naive (last week),2018-05-21,206,240.0
+5,Seasonal naive (last week),2018-05-22,199,256.0
+5,Seasonal naive (last week),2018-05-23,132,296.0
+5,Seasonal naive (last week),2018-05-24,114,305.0
+5,Seasonal naive (last week),2018-05-25,104,265.0
+5,Seasonal naive (last week),2018-05-26,99,169.0
+5,Seasonal naive (last week),2018-05-27,100,171.0
+5,Seasonal naive (last week),2018-05-28,143,240.0
+5,Seasonal naive (last week),2018-05-29,149,256.0
+5,Seasonal naive (last week),2018-05-30,140,296.0
+5,Seasonal naive (last week),2018-05-31,133,305.0
+5,Seasonal naive (last week),2018-06-01,184,265.0
+5,Seasonal naive (last week),2018-06-02,142,169.0
+5,Seasonal naive (last week),2018-06-03,192,171.0
+5,Naive (last day),2018-05-05,197,265.0
+5,Naive (last day),2018-05-06,211,265.0
+5,Naive (last day),2018-05-07,372,265.0
+5,Naive (last day),2018-05-08,331,265.0
+5,Naive (last day),2018-05-09,344,265.0
+5,Naive (last day),2018-05-10,279,265.0
+5,Naive (last day),2018-05-11,247,265.0
+5,Naive (last day),2018-05-12,207,265.0
+5,Naive (last day),2018-05-13,207,265.0
+5,Naive (last day),2018-05-14,364,265.0
+5,Naive (last day),2018-05-15,352,265.0
+5,Naive (last day),2018-05-16,357,265.0
+5,Naive (last day),2018-05-17,228,265.0
+5,Naive (last day),2018-05-18,236,265.0
+5,Naive (last day),2018-05-19,139,265.0
+5,Naive (last day),2018-05-20,161,265.0
+5,Naive (last day),2018-05-21,206,265.0
+5,Naive (last day),2018-05-22,199,265.0
+5,Naive (last day),2018-05-23,132,265.0
+5,Naive (last day),2018-05-24,114,265.0
+5,Naive (last day),2018-05-25,104,265.0
+5,Naive (last day),2018-05-26,99,265.0
+5,Naive (last day),2018-05-27,100,265.0
+5,Naive (last day),2018-05-28,143,265.0
+5,Naive (last day),2018-05-29,149,265.0
+5,Naive (last day),2018-05-30,140,265.0
+5,Naive (last day),2018-05-31,133,265.0
+5,Naive (last day),2018-06-01,184,265.0
+5,Naive (last day),2018-06-02,142,265.0
+5,Naive (last day),2018-06-03,192,265.0
+6,Prophet (weekly + BR holidays),2018-06-04,225,248.7041
+6,Prophet (weekly + BR holidays),2018-06-05,200,242.2474
+6,Prophet (weekly + BR holidays),2018-06-06,227,237.6882
+6,Prophet (weekly + BR holidays),2018-06-07,223,230.4187
+6,Prophet (weekly + BR holidays),2018-06-08,198,226.4031
+6,Prophet (weekly + BR holidays),2018-06-09,172,187.3334
+6,Prophet (weekly + BR holidays),2018-06-10,193,198.2586
+6,Prophet (weekly + BR holidays),2018-06-11,294,248.1332
+6,Prophet (weekly + BR holidays),2018-06-12,246,241.6766
+6,Prophet (weekly + BR holidays),2018-06-13,259,237.1174
+6,Prophet (weekly + BR holidays),2018-06-14,212,229.8479
+6,Prophet (weekly + BR holidays),2018-06-15,186,225.8323
+6,Prophet (weekly + BR holidays),2018-06-16,165,186.7626
+6,Prophet (weekly + BR holidays),2018-06-17,152,197.6878
+6,Prophet (weekly + BR holidays),2018-06-18,246,247.5624
+6,Prophet (weekly + BR holidays),2018-06-19,231,241.1058
+6,Prophet (weekly + BR holidays),2018-06-20,217,236.5466
+6,Prophet (weekly + BR holidays),2018-06-21,234,229.2771
+6,Prophet (weekly + BR holidays),2018-06-22,179,225.2615
+6,Prophet (weekly + BR holidays),2018-06-23,151,186.1917
+6,Prophet (weekly + BR holidays),2018-06-24,199,197.117
+6,Prophet (weekly + BR holidays),2018-06-25,241,246.9916
+6,Prophet (weekly + BR holidays),2018-06-26,243,240.535
+6,Prophet (weekly + BR holidays),2018-06-27,215,235.9758
+6,Prophet (weekly + BR holidays),2018-06-28,243,228.7063
+6,Prophet (weekly + BR holidays),2018-06-29,174,224.6906
+6,Prophet (weekly + BR holidays),2018-06-30,124,185.6209
+6,Prophet (weekly + BR holidays),2018-07-01,161,196.5462
+6,Prophet (weekly + BR holidays),2018-07-02,195,246.4208
+6,Prophet (weekly + BR holidays),2018-07-03,216,239.9642
+6,Seasonal naive (last week),2018-06-04,225,143.0
+6,Seasonal naive (last week),2018-06-05,200,149.0
+6,Seasonal naive (last week),2018-06-06,227,140.0
+6,Seasonal naive (last week),2018-06-07,223,133.0
+6,Seasonal naive (last week),2018-06-08,198,184.0
+6,Seasonal naive (last week),2018-06-09,172,142.0
+6,Seasonal naive (last week),2018-06-10,193,192.0
+6,Seasonal naive (last week),2018-06-11,294,143.0
+6,Seasonal naive (last week),2018-06-12,246,149.0
+6,Seasonal naive (last week),2018-06-13,259,140.0
+6,Seasonal naive (last week),2018-06-14,212,133.0
+6,Seasonal naive (last week),2018-06-15,186,184.0
+6,Seasonal naive (last week),2018-06-16,165,142.0
+6,Seasonal naive (last week),2018-06-17,152,192.0
+6,Seasonal naive (last week),2018-06-18,246,143.0
+6,Seasonal naive (last week),2018-06-19,231,149.0
+6,Seasonal naive (last week),2018-06-20,217,140.0
+6,Seasonal naive (last week),2018-06-21,234,133.0
+6,Seasonal naive (last week),2018-06-22,179,184.0
+6,Seasonal naive (last week),2018-06-23,151,142.0
+6,Seasonal naive (last week),2018-06-24,199,192.0
+6,Seasonal naive (last week),2018-06-25,241,143.0
+6,Seasonal naive (last week),2018-06-26,243,149.0
+6,Seasonal naive (last week),2018-06-27,215,140.0
+6,Seasonal naive (last week),2018-06-28,243,133.0
+6,Seasonal naive (last week),2018-06-29,174,184.0
+6,Seasonal naive (last week),2018-06-30,124,142.0
+6,Seasonal naive (last week),2018-07-01,161,192.0
+6,Seasonal naive (last week),2018-07-02,195,143.0
+6,Seasonal naive (last week),2018-07-03,216,149.0
+6,Naive (last day),2018-06-04,225,192.0
+6,Naive (last day),2018-06-05,200,192.0
+6,Naive (last day),2018-06-06,227,192.0
+6,Naive (last day),2018-06-07,223,192.0
+6,Naive (last day),2018-06-08,198,192.0
+6,Naive (last day),2018-06-09,172,192.0
+6,Naive (last day),2018-06-10,193,192.0
+6,Naive (last day),2018-06-11,294,192.0
+6,Naive (last day),2018-06-12,246,192.0
+6,Naive (last day),2018-06-13,259,192.0
+6,Naive (last day),2018-06-14,212,192.0
+6,Naive (last day),2018-06-15,186,192.0
+6,Naive (last day),2018-06-16,165,192.0
+6,Naive (last day),2018-06-17,152,192.0
+6,Naive (last day),2018-06-18,246,192.0
+6,Naive (last day),2018-06-19,231,192.0
+6,Naive (last day),2018-06-20,217,192.0
+6,Naive (last day),2018-06-21,234,192.0
+6,Naive (last day),2018-06-22,179,192.0
+6,Naive (last day),2018-06-23,151,192.0
+6,Naive (last day),2018-06-24,199,192.0
+6,Naive (last day),2018-06-25,241,192.0
+6,Naive (last day),2018-06-26,243,192.0
+6,Naive (last day),2018-06-27,215,192.0
+6,Naive (last day),2018-06-28,243,192.0
+6,Naive (last day),2018-06-29,174,192.0
+6,Naive (last day),2018-06-30,124,192.0
+6,Naive (last day),2018-07-01,161,192.0
+6,Naive (last day),2018-07-02,195,192.0
+6,Naive (last day),2018-07-03,216,192.0
+7,Prophet (weekly + BR holidays),2018-07-04,256,222.4001
+7,Prophet (weekly + BR holidays),2018-07-05,195,215.3284
+7,Prophet (weekly + BR holidays),2018-07-06,121,209.0562
+7,Prophet (weekly + BR holidays),2018-07-07,91,170.3061
+7,Prophet (weekly + BR holidays),2018-07-08,122,181.7749
+7,Prophet (weekly + BR holidays),2018-07-09,148,232.1464
+7,Prophet (weekly + BR holidays),2018-07-10,134,225.1071
+7,Prophet (weekly + BR holidays),2018-07-11,127,220.8072
+7,Prophet (weekly + BR holidays),2018-07-12,124,213.7356
+7,Prophet (weekly + BR holidays),2018-07-13,168,207.4634
+7,Prophet (weekly + BR holidays),2018-07-14,148,168.7133
+7,Prophet (weekly + BR holidays),2018-07-15,152,180.182
+7,Prophet (weekly + BR holidays),2018-07-16,245,230.5536
+7,Prophet (weekly + BR holidays),2018-07-17,221,223.5143
+7,Prophet (weekly + BR holidays),2018-07-18,307,219.2144
+7,Prophet (weekly + BR holidays),2018-07-19,253,212.1428
+7,Prophet (weekly + BR holidays),2018-07-20,250,205.8706
+7,Prophet (weekly + BR holidays),2018-07-21,187,167.1205
+7,Prophet (weekly + BR holidays),2018-07-22,215,178.5892
+7,Prophet (weekly + BR holidays),2018-07-23,307,228.9608
+7,Prophet (weekly + BR holidays),2018-07-24,271,221.9214
+7,Prophet (weekly + BR holidays),2018-07-25,268,217.6216
+7,Prophet (weekly + BR holidays),2018-07-26,247,210.55
+7,Prophet (weekly + BR holidays),2018-07-27,189,204.2778
+7,Prophet (weekly + BR holidays),2018-07-28,176,165.5277
+7,Prophet (weekly + BR holidays),2018-07-29,188,176.9964
+7,Prophet (weekly + BR holidays),2018-07-30,288,227.368
+7,Prophet (weekly + BR holidays),2018-07-31,322,220.3286
+7,Prophet (weekly + BR holidays),2018-08-01,311,216.0288
+7,Prophet (weekly + BR holidays),2018-08-02,302,208.9572
+7,Seasonal naive (last week),2018-07-04,256,215.0
+7,Seasonal naive (last week),2018-07-05,195,243.0
+7,Seasonal naive (last week),2018-07-06,121,174.0
+7,Seasonal naive (last week),2018-07-07,91,124.0
+7,Seasonal naive (last week),2018-07-08,122,161.0
+7,Seasonal naive (last week),2018-07-09,148,195.0
+7,Seasonal naive (last week),2018-07-10,134,216.0
+7,Seasonal naive (last week),2018-07-11,127,215.0
+7,Seasonal naive (last week),2018-07-12,124,243.0
+7,Seasonal naive (last week),2018-07-13,168,174.0
+7,Seasonal naive (last week),2018-07-14,148,124.0
+7,Seasonal naive (last week),2018-07-15,152,161.0
+7,Seasonal naive (last week),2018-07-16,245,195.0
+7,Seasonal naive (last week),2018-07-17,221,216.0
+7,Seasonal naive (last week),2018-07-18,307,215.0
+7,Seasonal naive (last week),2018-07-19,253,243.0
+7,Seasonal naive (last week),2018-07-20,250,174.0
+7,Seasonal naive (last week),2018-07-21,187,124.0
+7,Seasonal naive (last week),2018-07-22,215,161.0
+7,Seasonal naive (last week),2018-07-23,307,195.0
+7,Seasonal naive (last week),2018-07-24,271,216.0
+7,Seasonal naive (last week),2018-07-25,268,215.0
+7,Seasonal naive (last week),2018-07-26,247,243.0
+7,Seasonal naive (last week),2018-07-27,189,174.0
+7,Seasonal naive (last week),2018-07-28,176,124.0
+7,Seasonal naive (last week),2018-07-29,188,161.0
+7,Seasonal naive (last week),2018-07-30,288,195.0
+7,Seasonal naive (last week),2018-07-31,322,216.0
+7,Seasonal naive (last week),2018-08-01,311,215.0
+7,Seasonal naive (last week),2018-08-02,302,243.0
+7,Naive (last day),2018-07-04,256,216.0
+7,Naive (last day),2018-07-05,195,216.0
+7,Naive (last day),2018-07-06,121,216.0
+7,Naive (last day),2018-07-07,91,216.0
+7,Naive (last day),2018-07-08,122,216.0
+7,Naive (last day),2018-07-09,148,216.0
+7,Naive (last day),2018-07-10,134,216.0
+7,Naive (last day),2018-07-11,127,216.0
+7,Naive (last day),2018-07-12,124,216.0
+7,Naive (last day),2018-07-13,168,216.0
+7,Naive (last day),2018-07-14,148,216.0
+7,Naive (last day),2018-07-15,152,216.0
+7,Naive (last day),2018-07-16,245,216.0
+7,Naive (last day),2018-07-17,221,216.0
+7,Naive (last day),2018-07-18,307,216.0
+7,Naive (last day),2018-07-19,253,216.0
+7,Naive (last day),2018-07-20,250,216.0
+7,Naive (last day),2018-07-21,187,216.0
+7,Naive (last day),2018-07-22,215,216.0
+7,Naive (last day),2018-07-23,307,216.0
+7,Naive (last day),2018-07-24,271,216.0
+7,Naive (last day),2018-07-25,268,216.0
+7,Naive (last day),2018-07-26,247,216.0
+7,Naive (last day),2018-07-27,189,216.0
+7,Naive (last day),2018-07-28,176,216.0
+7,Naive (last day),2018-07-29,188,216.0
+7,Naive (last day),2018-07-30,288,216.0
+7,Naive (last day),2018-07-31,322,216.0
+7,Naive (last day),2018-08-01,311,216.0
+7,Naive (last day),2018-08-02,302,216.0

@@ -6,11 +6,13 @@ import ssl, certifi, httpx
 
 load_dotenv(dotenv_path="./app/.env")
 
-# fix ssl by ensure cerifi CA is used and combined with company corporate root
-CORPORATE_CERT_PATH=r"C:\Users\n1309516\corp_root.cer"
+# Trust certifi's CA bundle, plus an extra CA certificate if the network needs one
+# (for example behind a corporate proxy). Set EXTRA_CA_CERT in app/.env to its path.
 context=ssl.create_default_context()
 context.load_verify_locations(certifi.where())
-context.load_verify_locations(CORPORATE_CERT_PATH)
+extra_ca_cert=os.getenv("EXTRA_CA_CERT")
+if extra_ca_cert:
+    context.load_verify_locations(extra_ca_cert)
 
 http_client=httpx.Client(verify=context,timeout=60.0)
 
